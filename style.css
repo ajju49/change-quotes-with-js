@@ -1,0 +1,35 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#000000;
+    color: floralwhite;
+    text-transform: capitalize;
+}
+.container{
+
+    text-align: center;
+    padding: 2rem;
+    background:linear-gradient(#000000,#004d00);
+    flex: 0 0 80%;
+}
+.title{
+    color: orangered;
+}
+#quotebtn{
+    color:gray;
+    color: orange;
+    background: black;
+    font-size: 15px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+}
+blockquote{
+    background: black;
+    height: 20vh;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    color: orange;
+}
